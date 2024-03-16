@@ -37,7 +37,6 @@ def inicializarmenu_Opcoes():
             print('Digite apenas A, B, C, D ou E para escolher a questão')
             return inicializarmenu_Opcoes()
 
-
 def mostrarquestaoL10():
     escolha_genero = input(
         "Escolha o gênero que deve ser apresentado no gráfico, M para masculino e F para feminino. \n").upper()
